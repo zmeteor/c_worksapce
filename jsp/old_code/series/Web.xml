@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<web-app>
+<servlet>  
+<servlet-name>computerSum</servlet-name> 
+<servlet-class>user.yourservlet.HandleSum</servlet-class>
+</servlet> 
+<servlet-mapping>
+<servlet-name>computerSum</servlet-name>   
+<url-pattern>/lookSum</url-pattern> 
+</servlet-mapping>
+</web-app>
